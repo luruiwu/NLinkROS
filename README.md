@@ -29,6 +29,7 @@ Notice: please use portname and baudrate of your device instead.
 
 Known issue
 * Run failed,show "Unhandled Exception: IO Exception (13): Permision denied,file ... ",permision need to be changed.
+
 Edit file
 
     sudo gedit /etc/udev/rules.d/70-ttyusb.rules
